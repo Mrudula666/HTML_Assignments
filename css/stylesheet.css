@@ -1,0 +1,29 @@
+.bgcolor{
+    background-color:wheat;
+}
+.sectionset{
+max-width: 65%;
+max-height: 35%;
+float: left;
+background-color: white;
+}
+.bgimg{
+width: 100%;
+max-width:90%;
+max-height: 350px;
+
+
+}
+.specialoffers{
+background-color: red;
+max-height:25%;
+max-width: 34%;
+float: right;
+}
+.menu{
+float: right;
+}
+li{
+display: inline;
+margin: 15px;
+}

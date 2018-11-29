@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration form</title>
+</head>
+<body>
+    <table align="center">
+    <caption><h1>Registration form</h1></caption>
+    <form action="active" method="post" align="center" style="text-align: center">
+    <tr>
+     <td>First Name: </td>
+     <td><input type="text" placeholder="First Name" maxlength="25" name="first_name" pattern="[A-Za-z]"/></td>
+    </tr>
+    <tr>
+     <td> Last Name: </td>
+     <td><input type="text" placeholder="Last name" maxlength="25" name="last_name" pattern="[A-Za-z]"/></td>
+    <tr>
+     <tr>     
+     <td>Address:</td>
+     <td><textarea item-height="50px" item-width="50px" maxlength="50" name="address"></textarea></td>
+    </tr>
+     <tr>
+     <td>Email Id:</td>
+     <td><input type="email"></td>
+    </tr>
+     <tr>
+     <td>City: </td>
+     <td><select>
+            <option value="default">Enter city</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Chennai">Chennai</option></select></td>
+     </select>
+    </tr>
+    <tr>
+        <td>State:</td>
+        <td><select>
+                <option value="default">Enter State</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Tamil nadu">Tamil nadu</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>University Branch Name: </td>
+        <td><input type="text" placeholder="Branch name"></td>
+    </tr>
+    <tr>
+        <td>Phone number:</td>
+        <td><input type="number" placeholder="Enter phone number" maxlength="10"></td>
+    </tr>
+    <tr>
+        <td>Enrolled Course:</td>
+        <td><select>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Civil">Civil</option>
+        </select> </td>
+    </tr>
+    <tr>
+        <td>Date of Test:</td>
+        <td> <input type="date" name="date of test" id="dot"></td>
+    </tr>
+    <tr>
+        <td>Written Test Marks: </td>
+        <td><input type="number" name="marks" id="marks" min="50" max="100"></td>
+    </tr>
+    <tr>
+    <td colspan="2" align="center"><input type="submit" name="submit" id="submit" value="Submit"></td>
+    </tr>
+    </form>
+</table>
+</body>
+</html>
