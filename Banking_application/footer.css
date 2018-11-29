@@ -16,3 +16,8 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: 100%; /* Resize the background image to cover the entire container */
  }
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
